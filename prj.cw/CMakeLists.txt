@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.18)
-project(prj.cw)
+
 #include(CTest)
 #enable_testing()
 set(CMAKE_VERBOSE_MAKEFILE True)
