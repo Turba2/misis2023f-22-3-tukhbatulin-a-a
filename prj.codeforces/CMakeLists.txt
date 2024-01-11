@@ -1,5 +1,6 @@
-add_executable(0828c 0828c.cpp
-add_executable(1512c 1512c.cpp
+set(CMAKE_CXX_STANDARD 20)
+add_executable(0828c 0828c.cpp)
+add_executable(1512c 1512c.cpp)
 add_executable(1733c 1733c.cpp)
 add_executable(1859b 1859b.cpp)
 add_executable(1859e 1859e.cpp)
