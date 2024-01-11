@@ -1,4 +1,4 @@
-﻿#include<bits/stdc++.h>
+﻿
 #include <algorithm>
 #include <array>
 #include <bitset>
@@ -24,7 +24,6 @@
 #include <unordered_set>
 #include <unordered_map>
 #include <vector>
-#include<bits/stdc++.h>
 using namespace std;
 int t, n;
 int main()

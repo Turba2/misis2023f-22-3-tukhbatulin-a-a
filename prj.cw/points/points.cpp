@@ -40,7 +40,7 @@ void readPointsFromFile(const char* filename) {
 }
 
 // Функция для сохранения изображения в формате PNG
-void savePNG(const char* filename, int width, int height, unsigned char* pixels) {
+/* void savePNG(const char* filename, int width, int height, unsigned char* pixels) {
     FILE* fp = fopen(filename, "wb"); // Открытие файла для записи
     if (!fp) { // Проверка на успешное открытие файла
         std::cerr << "Error: Unable to create file " << filename << std::endl;
@@ -82,7 +82,7 @@ void savePNG(const char* filename, int width, int height, unsigned char* pixels)
     fclose(fp); // Закрытие файла
     png_destroy_write_struct(&png_ptr, &info_ptr); // Освобождение памяти
     free(row_pointers); // Освобождение памяти
-}
+}*/
 
 // Функция для отрисовки интерфейса с помощью ImGui
 void imguiRender() {
@@ -115,7 +115,7 @@ void imguiRender() {
         unsigned char* pixels = new unsigned char[width * height * 3];
         glReadPixels(0, 0, width, height, GL_RGB, GL_UNSIGNED_BYTE, pixels);
 
-        savePNG("screenshot.png", width, height, pixels);
+        // savePNG("screenshot.png", width, height, pixels);
 
         delete[] pixels;
     }
