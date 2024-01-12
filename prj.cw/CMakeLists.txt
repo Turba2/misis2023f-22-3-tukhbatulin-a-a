@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.18)
 
 #include(CTest)
 #enable_testing()
+
 set(CMAKE_VERBOSE_MAKEFILE True)
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED True)
@@ -9,6 +10,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 # include(/opt/vcpkg/scripts/buildsystems/vcpkg.cmake)
 # set(CMAKE_TOOLCHAIN_FILE "C:/Users/User/Desktop/test/vcpkg/scripts/buildsystems/vcpkg.cmake")
+
 find_package(imgui CONFIG REQUIRED)
 find_package(GLUT REQUIRED)
 find_package(OpenGL REQUIRED)
