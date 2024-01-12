@@ -8,7 +8,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 
 # include(/opt/vcpkg/scripts/buildsystems/vcpkg.cmake)
-# set(CMAKE_TOOLCHAIN_FILE "C:/Users/User/Desktop/test/vcpkg/scripts/buildsystems/vcpkg.cmake")
+set(CMAKE_TOOLCHAIN_FILE "C:/Users/User/Desktop/test/vcpkg/scripts/buildsystems/vcpkg.cmake")
 find_package(imgui CONFIG REQUIRED)
 find_package(GLUT REQUIRED)
 find_package(OpenGL REQUIRED)
